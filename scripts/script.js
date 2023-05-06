@@ -29,3 +29,12 @@ $(document).ready(function () {
         secondsDisplay.text("00");
     }
 });
+
+var el = document.getElementsByTagName("lastButton");
+
+el[0].addEventListener("click", displayDate);
+
+function displayDate() {
+  
+  alert("do something crazy")
+}
