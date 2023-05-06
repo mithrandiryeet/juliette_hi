@@ -1,72 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Wiggins Juliette Lab</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="./style.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wiggins Juliette Lab</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link
+            rel='stylesheet'
+            href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="./style.css">
 
-</head>
+    </head>
 
-<body>
-  <!--NavBar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand">Timer Ultimus &trade;</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://github.com/mithrandiryeet/juliette_hi"
-              target="_blank">Repository</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"
-              href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmithrandiryeet.github.io%2Fhotel_yeah%2F"
-              target="_blank">NuValidation</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--Title-->
-  <div id="title-bar"class="text-center"><h1 id="title">Why Spend Extra Time Setting Your Timer?</h1>
-    <h3>Use Timer Ultimus &trade;</h3>
-    <br>
-    <br>
+    <body>
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand">Timer Ultimus &trade;</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="https://github.com/mithrandiryeet/juliette_hi"
+                                target="_blank">Repository</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmithrandiryeet.github.io%2Fhotel_yeah%2F"
+                                target="_blank">NuValidation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Title-->
+        <div id="title-bar" class="text-center">
+            <h1 id="title">Why Spend Extra Time Setting Your Timer?</h1>
+            <h3>Use Timer Ultimus &trade;</h3>
+            <br>
+            <br>
 
-    <!-- <div class="col-md-6 offset-md-3 card mt-3">
-      <ul class="list-group list-group-horizontal">
-        <li class="list-group-item">First item</li>
-        <li class="list-group-item">Second item</li>
-        <li class="list-group-item">Third item</li>
-        <li class="list-group-item">Fourth item</li>
-        <li class="list-group-item">Second item</li>
-        <li class="list-group-item">Third item</li>
-        <li class="list-group-item">Fourth item</li>
-      </ul> -->
-      <div id="showcase">
-        <h4>This is placeholder text</h4>
-        <div id="gradeSelection">
-          <button type="button" class="btn btn-light grade" id="9">A</button>
-          <button type="button" class="btn btn-light grade" id="8">B</button>
-          <button type="button" class="btn btn-light grade" id="7">C</button>
-          <button type="button" class="btn btn-light grade" id="6">D</button>
-          <button type="button" class="btn btn-light grade fail" id="5">F</button>
-          <br/>
-    
+            <div id="showcase">
 
+                <br>
 
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
-        <script src="./script.js"></script>
+                <div class="container">
+                    <div class="col mb-3">
+                        <h3>Hours</h3>
 
-</body>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary" value="1">1</button>
+                            <button type="button" class="btn btn-secondary" value="2">2</button>
+                            <button type="button" class="btn btn-secondary" value="3">3</button>
+                            <button type="button" class="btn btn-secondary" value="4">4</button>
+                            <button type="button" class="btn btn-secondary" value="5">5</button>
+                            <button type="button" class="btn btn-secondary" value="6">6</button>
+                            <button type="button" class="btn btn-secondary" value="7">7</button>
+                            <button type="button" class="btn btn-secondary" value="8">8</button>
+                            <button type="button" class="btn btn-secondary" value="9">9</button>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <h3>Minutes</h3>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary">0</button>
+                            <button type="button" class="btn btn-secondary">1</button>
+                            <button type="button" class="btn btn-secondary">2</button>
+                            <button type="button" class="btn btn-secondary">3</button>
+                            <button type="button" class="btn btn-secondary">4</button>
+                            <button type="button" class="btn btn-secondary">5</button>
+                            <button type="button" class="btn btn-secondary">6</button>
+                            <button type="button" class="btn btn-secondary">7</button>
+                            <button type="button" class="btn btn-secondary">8</button>
+                            <button type="button" class="btn btn-secondary">9</button>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <h3>Seconds</h3>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary">0</button>
+                            <button type="button" class="btn btn-secondary">1</button>
+                            <button type="button" class="btn btn-secondary">2</button>
+                            <button type="button" class="btn btn-secondary">3</button>
+                            <button type="button" class="btn btn-secondary">4</button>
+                            <button type="button" class="btn btn-secondary">5</button>
+                            <button type="button" class="btn btn-secondary">6</button>
+                            <button type="button" class="btn btn-secondary">7</button>
+                            <button type="button" class="btn btn-secondary">8</button>
+                            <button type="button" class="btn btn-secondary">9</button>
+                        </div>
+                    </div>
+                </div>
 
-</html>
+                <div id="timerDisplay">
+                    <span class="hours">00</span>:
+                    <span class="minutes">00</span>:
+                    <span class="seconds">00</span>
+                </div>
+
+                <button id="startBtn" class="btn btn-primary">Start</button>
+
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'></script>
+                <script
+                    src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+                <script src="./script.js"></script>
+
+            </body>
+
+        </html>
